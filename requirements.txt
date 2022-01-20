@@ -1,0 +1,4 @@
+tensorlayer==2.2.3
+tensorflow==2.8.0rc0
+numpy==1.22.1
+easydict==1.9
