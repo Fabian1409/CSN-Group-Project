@@ -20,9 +20,11 @@ Depending on the installed versions of the dependecies, executing the evaluation
 If errors occur in the files mentioned below, then make the following modifications:
 
 Modify multiple lines of `python-installation/site-packages/tensorlayer/files/util.py`
+
 `layer_names = [n.decode('utf8') for n in f.attrs["layer_names"]]` or similar
 to `layer_names = f.attrs["layer_names"]`
 
-Modify multiple lines of `python-installation/site-packages/tensorlayer/models/core.py`.
+Modify multiple lines of `python-installation/site-packages/tensorlayer/models/core.py`
+
 `if isinstance(check_argu, tf_ops._TensorLike) or tf_ops.is_dense_tensor_like(check_argu):` 
 to `if isinstance(check_argu, (tf.Tensor, tf.SparseTensor, tf.Variable)) or tf_ops.is_dense_tensor_like(check_argu):`
