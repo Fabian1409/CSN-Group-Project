@@ -8,7 +8,8 @@ Code and some images takes from: https://github.com/tensorlayer/srgan
 This repo does NOT include all the necessary data and files to train the network.
 Images and model files would take up way too much space and training would take ages anyways.
 
-In case you want to go through all the effort you will also need the vgg19 pretrained model
+In case you want to go through all the effort you will also need the vgg19 pretrained model:
+
 Download the [VGG19 model](https://drive.google.com/file/d/1pZ0v-sLj-glfSx3Cssk_aBFRI8mF0hiq/view?usp=sharing) and place it in the folder `models/`
 
 ### Evaluating
