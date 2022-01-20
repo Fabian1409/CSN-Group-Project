@@ -14,6 +14,10 @@ Download the [VGG19 model](https://drive.google.com/file/d/1pZ0v-sLj-glfSx3Cssk_
 ### Evaluating
 The notebook.ipynb shows the evaluation of an input image
 
+When running the evaluation do NOT just execute all code cells.
+Some are just for explanation and will fail!
+execute just the imports and the ones below section 2 Training / Evaluation.
+
 ### Notes
 Depending on the installed versions of the dependencies, executing the evaluation or the training locally can be difficult.
 
