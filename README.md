@@ -2,20 +2,20 @@
 Computer System and Networks Group Project
 
 ### References
-https://github.com/tensorlayer/srgan
+Code and some images takes from: https://github.com/tensorlayer/srgan
 
 ### Training
-This repo does NOT ionlcude all the neccesarry data and file to train the netork.
-Images and model files would take up way to much space and training would take ages anyways.
+This repo does NOT include all the necessary data and files to train the network.
+Images and model files would take up way too much space and training would take ages anyways.
 
 In case you want to go through all the effort you will also need the vgg19 pretrained model
 Download the [VGG19 model](https://drive.google.com/file/d/1pZ0v-sLj-glfSx3Cssk_aBFRI8mF0hiq/view?usp=sharing) and place it in the folder `models/`
 
 ### Evaluating
-The notebook.ipynb shows the evaluation of a input image
+The notebook.ipynb shows the evaluation of an input image
 
 ### Notes
-Depending on the installed versions of the dependecies, executing the evaluation or the training locally can be difficult.
+Depending on the installed versions of the dependencies, executing the evaluation or the training locally can be difficult.
 
 If errors occur in the files mentioned below, then make the following modifications:
 
